@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mint — Politique de confidentialité</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.55; color: #111; }
+    h1 { font-size: 1.75rem; } h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    .muted { color: #666; font-size: 0.9rem; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>Politique de confidentialité — Mint</h1>
+  <p class="muted">Éditeur : XI Corporation (contact : xiicorporation@yahoo.com)<br />
+  Application : Mint (iOS)<br />
+  Dernière mise à jour : 16 novembre 2026<br />
+  <em>Version de travail Mint · 16/11/2026 — à faire relire par un avocat si besoin. Pas un conseil juridique.</em></p>
+
+  <h2>1. Qui sommes-nous ?</h2>
+  <p>Mint est une application mobile qui permet de gérer une collection de cartes Pokémon TCG, d’estimer des prix, de scanner des cartes et (le cas échéant) de publier des annonces entre utilisateurs.</p>
+
+  <h2>2. Données que nous collectons</h2>
+  <ul>
+    <li><strong>Compte</strong> : adresse e-mail, nom d’affichage, identifiant Apple (si « Sign in with Apple »), identifiant technique du compte.</li>
+    <li><strong>Collection</strong> : cartes, quantités, états, coffres, listes de suivi, alertes de prix — synchronisés sur nos serveurs (Supabase) lorsque vous êtes connecté.</li>
+    <li><strong>Scan</strong> : photos ou images envoyées à notre service d’identification de cartes pour obtenir une suggestion d’identité de carte. Les images sont traitées pour fournir le résultat ; nous ne les utilisons pas à des fins publicitaires.</li>
+    <li><strong>Annonces / marketplace</strong> (si utilisée) : contenu des annonces, photos uploadées, messages entre acheteur et vendeur, signalements.</li>
+    <li><strong>Achats</strong> : les abonnements sont gérés par Apple. Nous recevons le statut d’abonnement (actif / restauré), pas votre numéro de carte bancaire.</li>
+    <li><strong>Technique</strong> : logs de diagnostic (erreurs, performances), adresse IP côté serveurs, identifiants d’appareil liés à la session.</li>
+  </ul>
+
+  <h2>3. Finalités</h2>
+  <ul>
+    <li>Fournir et sécuriser le service (compte, sync, scan, prix).</li>
+    <li>Améliorer la reconnaissance de cartes et la stabilité de l’app.</li>
+    <li>Gérer les abonnements Premium et les quotas gratuits.</li>
+    <li>Prévenir la fraude, les abus et les accès non autorisés.</li>
+    <li>Respecter nos obligations légales.</li>
+  </ul>
+
+  <h2>4. Bases légales (RGPD)</h2>
+  <ul>
+    <li><strong>Exécution du contrat</strong> : fourniture de l’app et du compte.</li>
+    <li><strong>Intérêt légitime</strong> : sécurité, amélioration du produit, statistiques agrégées.</li>
+    <li><strong>Consentement</strong> : accès caméra / photos (autorisations iOS), et tout traitement optionnel futur clairement demandé.</li>
+    <li><strong>Obligation légale</strong> : conservation limitée si requise.</li>
+  </ul>
+
+  <h2>5. Partage des données</h2>
+  <p>Nous utilisons des prestataires pour faire fonctionner Mint, notamment :</p>
+  <ul>
+    <li><strong>Supabase</strong> — authentification, base de données, stockage fichiers.</li>
+    <li><strong>Apple</strong> — connexion Apple, paiements In-App Purchase.</li>
+    <li><strong>eBay</strong> (API) — estimation de prix / annonces publiques (pas de revente de vos données personnelles à eBay au-delà des appels techniques nécessaires).</li>
+    <li><strong>Hébergeur du service Identify</strong> — traitement des images de scan.</li>
+  </ul>
+  <p>Nous ne vendons pas vos données personnelles.</p>
+
+  <h2>6. Transferts hors UE</h2>
+  <p>Certains prestataires peuvent traiter des données hors de l’Union européenne. Dans ce cas, des garanties appropriées (clauses contractuelles types, etc.) sont recherchées auprès des fournisseurs.</p>
+
+  <h2>7. Durées de conservation</h2>
+  <ul>
+    <li>Compte et collection : tant que le compte est actif, puis suppression à votre demande (sous réserve d’obligations légales / litiges).</li>
+    <li>Images de scan : conservation courte liée au traitement ; pas d’archivage marketing.</li>
+    <li>Logs techniques : durée limitée (ordre de quelques semaines à quelques mois).</li>
+  </ul>
+
+  <h2>8. Sécurité</h2>
+  <p>Mot de passe géré par le prestataire d’auth ; session chiffrée sur l’appareil (Keychain) ; accès base limité par règles de sécurité (RLS) ; secrets API côté serveur.</p>
+
+  <h2>9. Vos droits</h2>
+  <p>Conformément au RGPD : accès, rectification, effacement, limitation, opposition, portabilité, et réclamation auprès de la CNIL. Pour exercer vos droits : <strong>xiicorporation@yahoo.com</strong> ou suppression de compte dans l’app (Réglages).</p>
+
+  <h2>10. Enfants</h2>
+  <p>Mint n’est pas destinée aux enfants de moins de 13 ans (ou l’âge minimum applicable dans votre pays). Si vous pensez qu’un compte a été créé par un mineur sans autorisation, contactez-nous.</p>
+
+  <h2>11. Caméra et photos</h2>
+  <p>L’accès caméra sert au scan de cartes / codes-barres. L’accès photothèque sert à la photo de profil et aux photos d’annonces. Vous pouvez refuser ces accès dans Réglages iOS ; certaines fonctions seront alors indisponibles.</p>
+
+  <h2>12. Modifications</h2>
+  <p>Nous pouvons mettre à jour cette politique. La date en tête de page sera actualisée. En cas de changement important, une information pourra être affichée dans l’app.</p>
+
+  <h2>13. Contact</h2>
+  <p>XI Corporation — <a href="mailto:xiicorporation@yahoo.com">xiicorporation@yahoo.com</a></p>
+</body>
+</html>
